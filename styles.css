@@ -1,8 +1,21 @@
+
+body, html {
+    width: 100%
+    height: 100%
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+
 header {
     background:#1E2651;
     padding: 40px; 
     width: 100%;
-    height: 100px;
+    height: 200px;
     position: relative;
     display: grid;
 }
@@ -15,30 +28,34 @@ header {
     top: 0px;
 }
 
-.navigation {
-    display: grid;
-    grid-template-columns: repeat (9, 1fr);
-    grid-auto-rows: auto;
-    grid-gap: 1em;
-    align-items: center;
+nav{
+    width: 100%;
+    height: 50px;
+    position: absolute; 
+    background-color: #FEA621;
+}
+
+nav>ul {
+    width: 100%; 
+    height: 100%;
     text-align: center;
-    
+    font-family:"Raleway";
+}
+nav>ul>li {
+    display:block;  
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    padding: 0 .5em;
 }
 
 li {
-    display: grid;
     display: inline;
-    grid-template-columns: repeat (9, 1fr);
-    grid-auto-rows: auto;
-    grid-gap: 1em;
-    align-items: center;
-    text-align: center;
-    background: yellow;
+    background-color: #FEA621;
 }
 
 .gamehubsalesimg {
-    display: block;
-    margin: auto;
+    margin-top: 100px; 
     
 }
 
@@ -56,6 +73,15 @@ li {
     font-size: 64px;
 }
 
+#gamehubtext {
+    margin-bottom: 20%;
+    font-family:"Dosis";
+    font-weight: bold;
+    font-size: 128px;
+    -webkit-text-stroke: #1E2651;
+    -webkit-text-stroke-width: 6px;
+}
 .introtext2 {
     font-size: 32px;
+    color: green;
 }
