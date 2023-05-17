@@ -23,6 +23,7 @@ header {
 #header {
     position:absolute;
     width: 100%; 
+    right: 0px;
 }
 
 #headerContent {
@@ -33,6 +34,16 @@ header {
     background-color: black;
     color: #fff; 
     text-align: center;
+}
+
+#headergamehubtext {
+
+color: #1E2651;
+margin-right: 0%;
+}
+
+#headergamehubtext2 {
+    color: #FEA621;
 }
 
 #summersale {
