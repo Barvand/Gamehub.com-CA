@@ -90,6 +90,7 @@ li {
 
 .gamehubsalesimg {
     margin-top: 100px; 
+    max-width: 1400px;
     
 }
 
@@ -118,4 +119,22 @@ li {
 .introtext2 {
     font-size: 32px;
     color: green;
+}
+
+.container2 {
+margin-top: 20px;
+}
+
+.subheading {
+    height: 330px;
+    width: 680px;
+    margin-left: 580px;
+ 
+}
+
+.Gamehubclubimg {
+    height: 330px;
+    width: 680px;
+    float: right;
+    margin-right: 580px; 
 }
