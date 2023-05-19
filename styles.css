@@ -76,11 +76,15 @@ nav>ul {
     font-family:"Raleway";
 }
 nav>ul>li {
-    display:block;  
+    display: flex;
     float: left;
     text-align: center;
     line-height: 50px;
     padding: 0 .5em;
+}
+li {
+    display:flex;
+    padding: 0 20px 0 0; 
 }
 
 li {
@@ -102,14 +106,14 @@ li {
 
 .introtext {
     position: absolute;
-    bottom: 10%;
-    left: 35%;
     color: white;
     font-size: 64px;
+    pointer-events: none;
+    margin-top: 0%;
 }
 
 #gamehubtext {
-    margin-bottom: 20%;
+    margin-bottom: 60%;
     font-family:"Dosis";
     font-weight: bold;
     font-size: 128px;
@@ -119,22 +123,35 @@ li {
 .introtext2 {
     font-size: 32px;
     color: green;
+    margin-bottom: 100px;
 }
 
 .container2 {
+    position: flex;
 margin-top: 20px;
 }
 
 .subheading {
     height: 330px;
     width: 680px;
-    margin-left: 580px;
+    margin-left: 50px;
  
 }
 
 .Gamehubclubimg {
     height: 330px;
     width: 680px;
-    float: right;
+    float: right; 
+    margin-right: 50px;
+    
+
+}
+
+
+.container {
+    background-color: aqua;
+    width: 1500px;
+    height: 1500px; 
     margin-right: 580px; 
+    margin-left: 580px;
 }
