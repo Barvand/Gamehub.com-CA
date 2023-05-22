@@ -51,21 +51,21 @@ header {
 }
 
 .fa-solid {
-    position: relative;
-    Margin-left: 0px;
+    position: absolute;    
+    right: 5px;
+    top: 0px;
 }
 
-
-
-#headergamehubtext {
+.headergamehubtext {
 color: #1E2651;
-margin-right: 0%;
+right: 0px;
 font-family:"Raleway";
 }
 
 #Gamehubtextheader {
-    position: relative;
-    margin-left: 20px;
+    position: absolute;
+    right: 5px;
+    top: 0px;
 }
 
 #headergamehubtext2 {
@@ -262,4 +262,4 @@ li {
     background-color:#1E2651; 
     clip-path: polygon(6% 0, 100% 0%, 100% 100%, 0 100%);
     margin: auto;
-}
+}dw
