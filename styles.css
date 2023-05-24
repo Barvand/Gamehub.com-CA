@@ -6,8 +6,6 @@ body, html {
 
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     list-style: none; 
 }
 
@@ -15,6 +13,7 @@ a {
     text-decoration: none;  
     color: black;
 }
+
 p {
     font-family: "Raleway";
 }
@@ -22,11 +21,11 @@ p {
 .container {
     border-style: solid;
     border-color: #1E2651;
-    width: 1500px;
+    width: 60%;
     height: 750px; 
-    margin-right: 580px; 
-    margin-left: 580px;
+    margin: auto;
     margin-top: 0%;
+    overflow: hidden;
 }
 
 
@@ -78,6 +77,7 @@ font-family:"Raleway";
 }
 
 #summersale {
+    position: absolute;
     background-color: black;
     color: white;
     text-align: center;
@@ -103,17 +103,15 @@ nav{
 }
 
 .nav-list {
-    display: flex;
-    float: left;
-    text-align: center;
+    display: inline;
     line-height: 50px;
     padding: 0 .5em;
 }
 
 
 .navli {
-    background-color: #FEA621;
-    display:flex;
+    display: inline;
+    background-color: #FEA621;;
     padding: 0 20px 0 0; 
     text-align: center;
 }
@@ -175,15 +173,6 @@ li {
     margin-left: 100px;
 }
 
-.container2 {
-    border-style: solid;
-    border-color: #1E2651;
-    width: 1500px;
-    height: 750px; 
-    margin-right: 580px; 
-    margin-left: 580px;
-    margin-top: 0%;
-}
 
 .subheading {
     height: 330px;
@@ -197,6 +186,7 @@ li {
     width: 680px;
     float: right; 
     margin-right: 50px;
+    box-sizing: border-box;
     
 
 }
@@ -250,7 +240,7 @@ li {
 
 .polygonheader {
     position: absolute;
-    width: 600px;
+    width: 24%;
     height: 200px; 
     background-color:#FEA621; 
     right: 0px; 
@@ -260,11 +250,11 @@ li {
 
 .polygonnavbar {
     position: absolute;
-    right: 0px; 
-    top; 0px;
-    width: 610px;
+    top: 0px;
+    right: 0px;
+    width: 25%;
     height: 50px;
     background-color:#1E2651; 
     clip-path: polygon(6% 0, 100% 0%, 100% 100%, 0 100%);
     margin: auto;
-}dw
+}
